@@ -1,179 +1,87 @@
 <!DOCTYPE html>
-
-<head>
-  <title>
-    Hyposyn
-  </title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body class="bg-gray-700">
-  <div id="header">
-    <p class="bg-gray-1000 fixed rounded-r-lg shadow-lg text-white w-60">
-      <font size="7">
-        <b 
-          <a href="index.html">
-
-          </a>
-        </b>
-      </font>
-    </p>
-    <br>
-    <center>
-      <img src="logo.png" md:width="100" md:height="150">
-    </center>
-    <br><br>
-    <div>
-      </b>
-      <p>
-      </p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Hyposyn Home</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/logo.png">
+  </head>
+  <body>
+    <div class="navbar">
+      <button class="current">Home</button>
+      <button onclick="window.location='#projects'" class="goto">Projects</button>
     </div>
-    <br>
-    <!--me likey js-->
-    <div id="meet_our_team">
-      <center>
-        <p class="text-white bg-gray-700 shadow-lg">
-          <b>
-            <font size="5">
-              Meet Our Team
-            </font>
-          </b>
-        </p>
-        <br>
-      </center>
-      <div class="p-6 sm:p-12 dark:bg-gray-700 dark:text-gray-100" id="sladescar">
-        <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-          <img src="sladescar.png" alt=""
-            class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
-          <div class="flex flex-col">
-            <h4 class="text-lg font-semibold text-center md:text-left">sladescar (Nvidion)</h4>
-            <p class="md:text-center dark:text-gray-400">Software engineer,
-              Music Producer,
-              Founder at Hyposyn Software.</p>
-          </div>
+    <div class="welcomeBanner">
+      <img src="static/images/logo.png" style="height: 300px; width: 300px;"/>
+      <b><h1>Welcome</h1></b>
+    </div>
+    <div class="section">
+      <p>Hyposyn is a software development team
+created by <a href="https://forum.snap.berkeley.edu/u/sladescar">@sladescar</a>.</p>
+    </div>
+    <div class="section">
+      <h1>Meet Our Team</h1>
+      <div class="divider"></div>
+      <br/>
+      <div class="desc">
+        <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/sladescar/240/20925_2.png" alt="Profile Image" class="pfp">
+        <div style="position: relative; float: right;">
+          <h2>Sladescar</h2>
+          <p>Leader and founder of Hyposyn</p>
         </div>
       </div>
-    </div>
-
-
-
-    <div class="shadow-lg p-6 sm:p-12 dark:bg-gray-700 dark:text-gray-100" id="earthrulerr">
-      <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-        <img src="earthrulerr.jpeg" alt=""
-          class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
-        <div class="flex flex-col">
-          <h4 class="text-lg font-semibold text-center md:text-left">earthrulerr</h4>
-          <p class="md:text-center dark:text-gray-400">Software engineer and web developer. Web Developer at Hyposyn.
-          </p>
+      <br/>
+      <div class="desc">
+        <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/joecooldoo/240/20604_2.png" alt="Profile Image" class="pfp">
+        <div style="position: relative; float: right;">
+          <h2>Joecooldoo</h2>
+          <p>Software Developer, has gone programming crazy</p>
         </div>
       </div>
-    </div>
-  </div>
-
-
-
-  </center>
-  <div class="p-6 sm:p-12 dark:bg-gray-700 dark:text-gray-100" id="slate">
-    <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-      <img src="45.png" alt=""
-        class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
-      <div class="flex flex-col">
-        <h4 class="text-lg font-semibold text-center md:text-left">slate_technologies</h4>
-        </center>
-        <p class="md:text-center dark:text-gray-400">
-          Developer, Quality Assurance (QA)</p>
+      <br/>
+      <div class="desc">
+        <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/earthrulerr/240/20980_2.png" alt="Profile Image" class="pfp">
+        <div style="position: relative; float: right;">
+          <h2>EarthRulerr</h2>
+          <p>Specialty in HTML, Tailwind CSS, and C++</p>
+        </div>
       </div>
-    </div>
-  </div>
-  </div>
-
-
-  </div>
-  </center>
-  <div class="p-6 sm:p-12 dark:bg-gray-700 dark:text-gray-100" id="owlsss">
-    <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-      <img src="20879_2.svg" alt=""
-        class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
-      <div class="flex flex-col">
-        <h4 class="text-lg font-semibold text-center md:text-left">mr_owlssssnap2</h4>
-        </center>
-        <p class="md:text-center dark:text-gray-400">
-          Developer, Web Designer</p>
+      <br/>
+      <div class="desc">
+        <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/mr_owlssssnap2/240/20879_2.png" alt="Profile Image" class="pfp">
+        <div style="position: relative; float: right;">
+          <h2>Mr_Owlssssnap2</h2>
+          <p>Likes to program in visual programming languages</p>
+        </div>
       </div>
-    </div>
-  </div>
-  </div>
-
-
-  <div class="shadow-lg p-6 sm:p-12 dark:bg-gray-700 dark:text-gray-100" id="">
-    <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-      <img src="45 (1).png" alt=""
-        class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
-      <div class="flex flex-col">
-        <h4 class="text-lg font-semibold text-center md:text-left">d4s_over_dt4</h4>
-        <p class="md:text-center dark:text-gray-400">Developer, Quality Assurance (QA)</p>
+      <br/>
+      <div class="desc">
+        <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/d4s_over_dt4/120/12153_2.png" alt="Profile Image" class="pfp">
+        <div style="position: relative; float: right;">
+          <h2>D4s_Over_Dt4</h2>
+          <p>Javascript lover</p>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="shadow-lg p-6 sm:p-12 dark:bg-gray-700 dark:text-gray-100" id="">
-    <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-      <!--<img src="" alt=""
-        class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">-->
-      <div class="flex flex-col">
-        <h4 class="text-lg font-semibold text-center md:text-left">imcute-aaaa</h4>
-        <p class="md:text-center dark:text-gray-400">javascript Developer, Quality Assurance (QA)</p>
+      <br/>
+      <div class="desc">
+        <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/slate_technologies/240/20879_2.png" alt="Profile Image" class="pfp">
+        <div style="position: relative; float: right;">
+          <h2>Slate_Technologies</h2>
+          <p>Loves fixing and designing things</p>
+        </div>
       </div>
+      <br/>
     </div>
-  </div>
-  </div>
-
-
-  </div>
-  </center>
-  <div class="p-6 sm:p-12 dark:bg-gray-700 dark:text-gray-100" id="owlsss">
-    <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-      <img src="19435_2.png" alt=""
-        class="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700">
-      <div class="flex flex-col">
-        <h4 class="text-lg font-semibold text-center md:text-left">bombmanyeeted</h4>
-        </center>
-        <p class="md:text-center dark:text-gray-400">
-          Developer, Quality Assurance (QA)</p>
-      </div>
+    <div class="section" style="margin-bottom: 50px;" id="projects">
+      <h1>Our Projects</h1>
+      <div class="divider"></div>
+      <br/>
+      <!--We need a group of projects to add!-->
     </div>
-  </div>
-  </div>
-  <br><br><br><br>
-  <div id="projects">
     <center>
-      <p class="text-white">
-        <b>
-          <font size="5">
-            Projects
-          </font>
-        </b>
-      </p>
+      <p><b>Links</b></p>
+      <!--Links go here, but I need to do some CSS first to make things look like the planned layout.-->
     </center>
-  </div>
-</body>
-<center>
-  <a href="https://snap.berkeley.edu/collection?username=sladescar&collection=The%20SnipOS%20Series">
-    <img src="sniposlogo.png" md:width="100" md:height="150" class="shadow-lg">
-  </a>
-</center>
-
-<b><b><br><br>
-    <div id="footer">
-      <center>
-        <p class="text-white">
-          <small>
-            <i>
-              Hyposyn
-            </i>
-          </small>
-        </p>
-      </center>
-    </div>
-    </body>
-
-    </html>
+  </body>
+</html>

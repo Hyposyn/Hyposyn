@@ -1,4 +1,170 @@
-html, body {
-  height: 100%;
+.current{
+  border: none;
+  color: #ffffffff;
+  border-radius: 10px;
+  padding: 6px 6px;
+  text-align: center;
+  background-color: #0084ff;
+}
+.goto{
+  border: none;
+  color: #ffffffff;
+  border-radius: 10px;
+  padding: 6px 6px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #9c9c9c;
+  transition: all 200ms ease-out;
+}
+.goto:hover{
+  box-shadow: 0 0px 10px #4dbbff;
+  background-color: #47afff;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+.navbar{
+  background-color: #0d3e63;
+  padding: 6px 6px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  transition: all 200ms ease-out;
+  margin-bottom: 10px;
+}
+.navbar:hover {
+  background-color: #005d85;
+  box-shadow: 0 0px 20px #4dbbff;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+.navbarLogo{
+  max-height: 25px;
+  max-width: 25px;
+  float: right;
+}
+html{
+  background-color: #1d243a;
+  text-align: center;
+  font-family: 'Arial';
+  color: #addcff;
+}
+.welcomeBanner{
+  margin-bottom: 10px;
+  background-color: #005d85;
+  border-radius: 10px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+.welcomeBanner:hover {
+  box-shadow: 0px 0px 20px #4dbbff;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+.projects{
+  background-color: #005d85;
+  padding: 6px 6px;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.section{
+  background-color: #005d85;
+  padding: 6px 6px;
+  border-radius: 10px;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+  margin-bottom: 10px;
+}
+.section:hover {
+  box-shadow: 0px 0px 20px #4dbbff;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+.project{
+  display: table-cell;
+  background-color: #bababa;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 50%;
+  background-image: url('images/space.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  transition: all 200ms ease-out;
+}
+.project:hover{
+  box-shadow: 0px 0px 20px #4dbbff;
+  background-color: #0084ff;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+  cursor: pointer;
+  background-image: url('images/spaceWarp.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #007bff
+}
+.projectsContainer{
+  display: table;
   width: 100%;
+  background-color: #a3a3a3;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.gapHorizontal{
+  width: 10px;
+}
+.loading {
+  background-color: #969696;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.citation{
+  display: table-cell;
+  background-color: #949494;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: all 200ms ease-out;
+  width: 100%;
+}
+.citation:hover{
+  box-shadow: 0px 0px 1000000px #ffffff;
+  background-color: #404040;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+  cursor: default;
+  width: 200%;
+}
+.pfp {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+}
+a:link {
+  color: #009dff;
+}
+a:visited {
+  color: #1d6dc3;
+}
+a:hover {
+  color: #00d5ff;
+}
+a:active{
+  color: #00d5ff;
+}
+.divider{
+  outline: 1px solid #addcff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.desc{
+  display: flex;
 }
