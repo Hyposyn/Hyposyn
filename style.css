@@ -169,3 +169,6 @@ a:active{
 .desc{
   display: flex;
 }
+.meme{
+  font-size: 2px;
+}
