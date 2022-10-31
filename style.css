@@ -149,6 +149,15 @@ html{
   margin-right: 20px;
   background-color: #1d243a;
 }
+.pfp:hover {
+  box-shadow: 0px 0px 1000000px #ffffff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+  background-color: #404040;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
 a:link {
   color: #009dff;
 }
