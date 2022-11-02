@@ -148,14 +148,15 @@ html{
   height: 90px;
   margin-right: 20px;
   background-color: #1d243a;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
 }
 .pfp:hover {
-  box-shadow: 0px 0px 1000000px #ffffff;
   border-radius: 50%;
   width: 90px;
   height: 90px;
   margin-right: 20px;
   background-color: #404040;
+  box-shadow: 0px 0px 100px #ffffff;
   transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
 }
 a:link {
@@ -167,32 +168,27 @@ a:visited {
 a:hover {
   color: #00d5ff;
 }
-a:active{
+a:active {
   color: #00d5ff;
 }
-.divider{
+.divider {
   outline: 1px solid #addcff;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.desc{
+.desc {
   display: flex;
-}
-.meme{
-  font-size: 1px;
 }
 .project2 {
   box-shadow: 0px 0px 10px #194a53;
-  background-color: #1c6cb7;
+  background-color: #1d243a;
   outline: 2px solid #0d3e63;
   border-radius: 10px;
-  color: #addcff;
+  transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+  padding: 10px 10px;
+  margin: 10px 10px;
 }
 .project2:hover {
-  box-shadow: 0px 0px 15px #1f7685;
-  background-color: #2174c2;
-  outline: 2px solid #0d4b7b;
-  border-radius: 10px;
+  box-shadow: 0px 0px 100px #ffffff;
   transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
-  color: #addcff;
 }
