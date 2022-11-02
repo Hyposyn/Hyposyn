@@ -182,8 +182,14 @@ a:active{
   font-size: 1px;
 }
 .project2 {
-  box-shadow: 0px 0px 20px #194a53;
+  box-shadow: 20px 20px 20px #194a53;
+  background-color: #235a8e;
+  outline: 3px solid #0d3e63;
+  border-radius: 10px;
+}
+.project2:hover {
+  box-shadow: 35px 35px 35px #1f7685;
   background-color: #2174c2;
-  outline: 1px solid #0d3e63;
+  outline: 5px solid #0d4b7b;
   border-radius: 10px;
 }
