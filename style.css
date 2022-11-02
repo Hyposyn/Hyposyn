@@ -183,6 +183,6 @@ a:active{
 }
 .project2 {
   box-shadow: 100px 100px 100 #194a53;
-  border: #0d3e63 50px;
+  outline: 1px solid #0d3e63;
   
 }
