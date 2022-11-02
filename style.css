@@ -186,6 +186,7 @@ a:active{
   background-color: #1c6cb7;
   outline: 2px solid #0d3e63;
   border-radius: 10px;
+  color: #addcff;
 }
 .project2:hover {
   box-shadow: 0px 0px 15px #1f7685;
@@ -193,4 +194,5 @@ a:active{
   outline: 2px solid #0d4b7b;
   border-radius: 10px;
   transition: 200ms, box-shadow 200ms, background-color 200ms ease-out, box-shadow 200ms ease-out;
+  color: #addcff;
 }
