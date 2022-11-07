@@ -201,24 +201,20 @@ div {
   width: 100%;
   margin: auto;
   text-align: center;
-  /* Start of Aligning the Footer */
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%; /* 5 Sections, for now. */
+  grid-template-columns: 33% 33% 33%;
 }
-
 #footer-content a
 {
-  color: #ccc !important; /* Importants are used to overide values (that have higher specificity, in this case Links)*/
+  color: #ccc !important;
   text-decoration: none;
   text-align: center;
 }
-
 #footer-content a:hover
 {
-  color: white !important; /* Importants are used to overide values (that have higher specificity, in this case Links)*/
+  color: white !important;
   text-decoration: underline;
 }
-
 .footer-heading
 {
   color: white;
