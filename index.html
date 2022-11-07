@@ -1,113 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <title>Hyposyn Home</title>
-    <link rel="icon" type="image/x-icon" href="/static/images/logo.png">
-    <meta name="keyword" content="Hyposyn, Sladescar, Snap Hyposyn Project".>
-    <meta name="description" content="Hyposyn, a Snap! Project." >
-    <meta name="author" content="Hyposyn Technologies">
-  </head>
-  <body>
-    <div class="navbar">
-      <button class="current">Home</button>
-      <button onclick="window.location='#projects'" class="goto">Projects</button>
-    </div>
-    <div class="welcomeBanner">
-      <img src="static/images/logo.png" style="height: 300px; width: 300px;"/>
-      <b><h1>Welcome</h1></b>
-    </div>
-    <div class="section">
-      <p>Hyposyn is a software development team
-created by <a href="https://forum.snap.berkeley.edu/u/sladescar">@sladescar</a>.</p>
-    </div>
-    <div class="section">
-      <h1>Meet Our Team</h1>
-      <div class="divider"></div>
-      <br/>
-      <div class="desc">
-        <a href="https://forum.snap.berkeley.edu/u/sladescar/"><img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/sladescar/240/20925_2.png" alt="Profile Image" class="pfp"></a>
-        <div style="position: relative; float: right;">
-          <h2>Sladescar</h2>
-          <p>Leader and founder of Hyposyn and makes quotes about his own creations</p>
-        </div>
-      </div>
-      <br/>
-      <div class="desc">
-        <a href="https://forum.snap.berkeley.edu/u/joecooldoo/"><img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/joecooldoo/240/21032_2.png" alt="Profile Image" class="pfp"></a>
-        <div style="position: relative; float: right;">
-          <h2>Joecooldoo</h2>
-          <p>Software developer, has gone programming crazy</p>
-        </div>
-      </div>
-      <br/>
-      <div class="desc">
-        <a href="https://forum.snap.berkeley.edu/u/earthrulerr/"><img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/earthrulerr/240/20980_2.png" alt="Profile Image" class="pfp"></a>
-        <div style="position: relative; float: right;">
-          <h2>EarthRulerr</h2>
-          <p>Specialty in HTML, Tailwind CSS, and C++</p>
-        </div>
-      </div>
-      <br/>
-      <div class="desc">
-        <a href="https://forum.snap.berkeley.edu/u/mr_owlssssnap2/"><img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/mr_owlssssnap2/240/20879_2.png" alt="Profile Image" class="pfp"></a>
-        <div style="position: relative; float: right;">
-          <h2>Mr_OwlsssSnap2</h2>
-          <p>Specialises in grammar, HTML, and block languages.
-        </div>
-      </div>
-      <br/>
-      <div class="desc">
-        <a href="https://forum.snap.berkeley.edu/u/d4s_over_dt4/"><img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/d4s_over_dt4/120/12153_2.png" alt="Profile Image" class="pfp"></a>
-        <div style="position: relative; float: right;">
-          <h2>D4s_Over_Dt4</h2>
-          <p>Javascript lover, like, <i>really</i> loves JavaScript.</p>
-        </div>
-      </div>
-      <br/>
-      <div class="desc">
-        <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/slate_technologies/240/20879_2.png" alt="Profile Image" class="pfp">
-        <div style="position: relative; float: right;">
-          <h2>Slate_Technologies</h2>
-          <p>Loves fixing and designing things</p>
-        </div>
-      </div>
-      <br/>
-      <div class="desc">
-        <a href="https://forum.snap.berkeley.edu/u/sladescar/"><img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/18001767679/120/12153_2.png" alt="Profile Image" class="pfp"></a>
-        <div style="position: relative; float: right;">
-          <h2>18001767679</h2>
-          <p>Has the programming inteligence of an eagle who upgraded their inteligence stat to 1k</p>
-        </div>
-      </div>
-      <br/>
-    </div>
-    <div class="section" style="margin-bottom: 50px;" id="projects">
-      <h1>Our Projects</h1>
-      <div class="divider"></div>
-      <br/>
-      <div style="display: table;">
-        <div style="display: flex;">
-        <a href="https://snap.berkeley.edu/project?username=sladescar&projectname=Fusion%20Motorsport">
-          <div class="project2">
-            <h2>Fusion Motorsport</h2>
-            <img src="static/images/fsms.png" alt="Fusion Motorsport Screenshot" style="border-radius: 10px;"/>
-          </div>
-        </a>
-        <a href="https://snap.berkeley.edu/project?username=sladescar&projectname=SnipOS%20Pro">
-          <div class="project2">
-            <h2>Snip OS</h2>
-            <img src="static/images/sniposlogo.png" alt="Snip OS Logo" style="border-radius: 10px;"/>
-          </div>
-        </a>
-      </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Hyposyn Home</title>
+  <link rel="icon" type="image/x-icon" href="/static/images/logo.png">
+  <meta name="keyword" content="Hyposyn, Sladescar, Snap Hyposyn Project" .>
+  <meta name="description" content="Hyposyn, a Snap! Project.">
+  <meta name="author" content="Hyposyn Technologies">
+</head>
+
+<body>
+  <div class="navbar">
+    <button class="current">Home</button>
+    <button onclick="window.location='#projects'" class="goto">Projects</button>
+  </div>
+  <div class="welcomeBanner">
+    <img src="static/images/logo.png" style="height: 300px; width: 300px;" />
+    <b>
+      <h1>Welcome</h1>
+    </b>
+  </div>
+  <div class="section" id="about">
+    <p>Hyposyn is a software development team
+      created by <a href="https://forum.snap.berkeley.edu/u/sladescar">@sladescar</a>.</p>
+  </div>
+  <div class="section" id="team">
+    <h1>Meet Our Team</h1>
+    <div class="divider"></div>
+    <br />
+    <div class="desc">
+      <a href="https://forum.snap.berkeley.edu/u/sladescar/"><img
+          src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/sladescar/240/20925_2.png"
+          alt="Profile Image" class="pfp"></a>
+      <div style="position: relative; float: right;">
+        <h2>Sladescar</h2>
+        <p>Leader and founder of Hyposyn and makes quotes about his own creations</p>
       </div>
     </div>
-    <center>
-      <p><b>Links</b></p>
-        <!--Links go here, but I need to do some CSS first to make things look like the planned layout.-->
-    </center>
-  </body>
+    <br />
+    <div class="desc">
+      <a href="https://forum.snap.berkeley.edu/u/joecooldoo/"><img
+          src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/joecooldoo/240/21032_2.png"
+          alt="Profile Image" class="pfp"></a>
+      <div style="position: relative; float: right;">
+        <h2>Joecooldoo</h2>
+        <p>Software developer, has gone programming crazy</p>
+      </div>
+    </div>
+    <br />
+    <div class="desc">
+      <a href="https://forum.snap.berkeley.edu/u/earthrulerr/"><img
+          src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/earthrulerr/240/20980_2.png"
+          alt="Profile Image" class="pfp"></a>
+      <div style="position: relative; float: right;">
+        <h2>EarthRulerr</h2>
+        <p>Specialty in HTML, Tailwind CSS, and C++</p>
+      </div>
+    </div>
+    <br />
+    <div class="desc">
+      <a href="https://forum.snap.berkeley.edu/u/mr_owlssssnap2/"><img
+          src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/mr_owlssssnap2/240/20879_2.png"
+          alt="Profile Image" class="pfp"></a>
+      <div style="position: relative; float: right;">
+        <h2>Mr_OwlsssSnap2</h2>
+        <p>Specialises in grammar, HTML, and block languages.
+      </div>
+    </div>
+    <br />
+    <div class="desc">
+      <a href="https://forum.snap.berkeley.edu/u/d4s_over_dt4/"><img
+          src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/d4s_over_dt4/120/12153_2.png"
+          alt="Profile Image" class="pfp"></a>
+      <div style="position: relative; float: right;">
+        <h2>D4s_Over_Dt4</h2>
+        <p>Javascript lover, like, <i>really</i> loves JavaScript.</p>
+      </div>
+    </div>
+    <br />
+    <div class="desc">
+      <img src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/slate_technologies/240/20879_2.png"
+        alt="Profile Image" class="pfp">
+      <div style="position: relative; float: right;">
+        <h2>Slate_Technologies</h2>
+        <p>Loves fixing and designing things</p>
+      </div>
+    </div>
+    <br />
+    <div class="desc">
+      <a href="https://forum.snap.berkeley.edu/u/sladescar/"><img
+          src="https://forum.snap.berkeley.edu/user_avatar/forum.snap.berkeley.edu/18001767679/120/12153_2.png"
+          alt="Profile Image" class="pfp"></a>
+      <div style="position: relative; float: right;">
+        <h2>18001767679</h2>
+        <p>Has the programming inteligence of an eagle who upgraded their inteligence stat to 1k</p>
+      </div>
+    </div>
+    <br />
+  </div>
+  <div class="section" style="margin-bottom: 50px;" id="projects">
+    <h1>Our Projects</h1>
+    <div class="divider"></div>
+    <br />
+    <a href="https://snap.berkeley.edu/project?username=sladescar&projectname=Fusion%20Motorsport">
+      <div class="project2">
+        <h2>Fusion Motorsport</h2>
+        <img src="static/images/fm.png" alt="Fusion Motorsport Screenshot"
+          style="border-radius: 10px; background-color: #0d3e63;" />
+      </div>
+    </a>
+    <a href="https://snap.berkeley.edu/collection?username=sladescar&collection=The%20SnipOS%20Series">
+      <div class="project2">
+        <h2>Snip OS</h2>
+        <img src="static/images/sniposlogo.png" alt="Snip OS Logo"
+          style="border-radius: 10px; background-color: #0d3e63;" />
+      </div>
+    </a>
+  </div>
+  <center>
+    <div id="footer-content">
+      <div id="footer-sdb">
+        <h4 class="footer-heading">Projects</h4>
+        <a style="text-align: center;" href="/">Snip OS 3.1</a><br />
+        <a style="text-align: center;" href="/">Fusion Motorsport</a><br />
+      </div>
+      <div id="footer-sdb">
+        <h4 class="footer-heading">Collections</h4>
+        <a style="text-align: center;" href="/">Snip OS</a><br />
+      </div>
+      <div id="footer-sdb">
+        <h4 class="footer-heading">Hyposyn</h4>
+        <a style="text-align: center;" href="#about">About</a><br />
+        <a style="text-align: center;" href="#team">The Team</a><br />
+      </div>
+    </div>
+  </center>
+</body>
+
 </html>
