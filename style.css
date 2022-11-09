@@ -178,6 +178,7 @@ a:active {
 }
 .desc {
   display: flex;
+  text-align: left;
 }
 .project2 {
   box-shadow: 0px 0px 10px #194a53;
