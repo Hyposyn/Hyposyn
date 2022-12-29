@@ -6,4 +6,4 @@ ___
 
 ___
 
-Hyposyn is a software development team founded by sladescar that creates software in Snap!, C++, and Python. Est. 2022
+Hyposyn is a software development group that creates software in Snap!, C++, and Python. Est. 2022
