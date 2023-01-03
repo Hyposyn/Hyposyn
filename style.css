@@ -221,3 +221,12 @@ div {
   color: white;
   text-align: center;
 }
+table, td {
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #3699b0;
+  padding: 5px;
+}
+table {
+  width: 100%;
+}
